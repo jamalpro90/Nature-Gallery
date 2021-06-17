@@ -1,0 +1,239 @@
+/* Navbar */
+nav {
+  background-color: #111;
+}
+nav ul li a {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Carousel */
+.carousel-item {
+  max-height: 100vh;
+}
+
+/* Gallery 2 */
+.gallery-2 img {
+  width: 500px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.gallery-2 img:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.gallery-2 button {
+  border-radius: 3px;
+}
+
+/* Gallery 3 */
+#gallery-3 {
+  background-color: rgb(182, 168, 149);
+}
+
+#gallery-3 .card {
+  background-color: #222;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#gallery-3 .card:hover {
+  transform: scale(1.1);
+}
+
+#gallery-3 button {
+  border-radius: 3px;
+  margin: 50px auto;
+}
+
+/* Gallery 4 */
+.gallery-4 {
+  z-index: 2;
+}
+.gallery-4 img {
+  width: 500px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.gallery-4 img:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+.gallery-4 button {
+  border-radius: 3px;
+}
+
+/* Subscribe */
+.subscribe {
+  margin: 0 auto;
+  width: 98%;
+}
+.subscribe img {
+  width: 100vw;
+  position: relative;
+  top: -150px;
+  filter: brightness(50%);
+  z-index: -99;
+}
+
+.subscribe .col-md-12 {
+  position: relative;
+}
+
+.forem {
+  position: absolute;
+  display: inline-block;
+  left: calc(50% - 250px);
+  top: 30%;
+}
+
+.forem input {
+  background: transparent;
+  border: 2px solid white;
+  width: 400px;
+  height: 60px;
+}
+
+.forem button {
+  border-radius: 1px;
+  margin-left: -5px;
+  margin-top: -14px;
+  width: 150px;
+  height: 60px;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  height: 300px;
+  margin-top: -200px;
+  padding-top: 30px;
+}
+
+.medsos-container > * {
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.copy {
+  background-color: #111;
+}
+
+@media screen and (max-width: 1200px) {
+  /* Gallery 2 */
+  .gallery-2 img {
+    width: 400px;
+  }
+
+  /* Gallery 4 */
+  .gallery-4 img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* Gallery 2 */
+  .gallery-2 img {
+    width: 300px;
+  }
+
+  /* Gallery 4 */
+  .gallery-4 img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Gallery 2 */
+  .gallery-2 img {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  /* Gallery 4 */
+  .gallery-4 img {
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  #gallery-3 .card {
+    margin-bottom: 20px;
+  }
+
+  .forem {
+    margin-top: -50px;
+  }
+  .forem input {
+    max-width: 300px;
+  }
+  .forem button {
+    max-width: 100px;
+    margin-top: -13px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .row {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .forem {
+    left: 10%;
+  }
+
+  .forem input {
+    max-width: 200px;
+    height: 40px;
+  }
+  .forem button {
+    max-width: 100px;
+    height: 40px;
+    margin-top: -12px;
+  }
+
+  .subscribe img {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* Gallery 2 */
+  .gallery-2 img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  /* Gallery 4 */
+  .gallery-4 img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .forem {
+    left: 10%;
+  }
+
+  .forem input {
+    max-width: 200px;
+    height: 40px;
+  }
+  .forem button {
+    max-width: 100px;
+    height: 40px;
+    margin-top: -12px;
+  }
+
+  footer {
+    padding-top: 60px;
+  }
+}
